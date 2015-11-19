@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sgk_gray_userhome_separate">#D9CDCD</color>
+    <color name="sgk_red_common_bg">#FFEE554D</color>
+    <color name="sgk_black_text_color">#FF505050</color>
+</resources>

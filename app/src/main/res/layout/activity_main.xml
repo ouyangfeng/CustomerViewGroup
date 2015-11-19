@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.liushengfan.test.customerviewgroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.liushengfan.test.customerviewgroup.view.ViewGroupScrollView
+        android:id="@+id/root_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:upView="@layout/part_upview"
+        custom:downView="@layout/part_downview"
+        />
+
+
+</RelativeLayout>

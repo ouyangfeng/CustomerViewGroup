@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="activity_event">
+        <item>商品详情</item>
+        <item>店铺推荐</item>
+    </string-array>
+
+</resources>
