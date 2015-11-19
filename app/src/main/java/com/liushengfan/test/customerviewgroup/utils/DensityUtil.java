@@ -1,4 +1,4 @@
-package com.liushengfan.test.customerviewgroup;
+package com.liushengfan.test.customerviewgroup.utils;
 
 import android.content.Context;
 import android.util.TypedValue;

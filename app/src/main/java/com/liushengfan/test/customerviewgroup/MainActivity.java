@@ -5,9 +5,15 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 
+import com.liushengfan.test.customerviewgroup.adapter.CommonFragmentAdapter;
+import com.liushengfan.test.customerviewgroup.adapter.PagerAdapterTabs;
+import com.liushengfan.test.customerviewgroup.cinterface.FragmentAdapterProvider;
 import com.liushengfan.test.customerviewgroup.view.PagerSlidingTabStrip;
 import com.liushengfan.test.customerviewgroup.view.ViewGroupScrollView;
 
+/**
+ * @author liushengfan
+ */
 public class MainActivity extends FragmentActivity implements FragmentAdapterProvider {
     PagerSlidingTabStrip mTab;
     public ViewPager mViewPager;
@@ -43,7 +49,7 @@ public class MainActivity extends FragmentActivity implements FragmentAdapterPro
         mTab.setDividerColor(getResources().getColor(R.color.sgk_gray_userhome_separate));
         mViewPager = (ViewPager) findViewById(R.id.vp_userhome);
         mViewPager.setOffscreenPageLimit(2);
-        mAdapter = new PagerAdapterUserHome(getSupportFragmentManager(), this);
+        mAdapter = new PagerAdapterTabs(getSupportFragmentManager(), this);
         mViewPager.setAdapter(mAdapter);
         mTab.setViewPager(mViewPager);
     }

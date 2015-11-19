@@ -1,9 +1,9 @@
-package com.liushengfan.test.customerviewgroup;
+package com.liushengfan.test.customerviewgroup.cinterface;
 
 import android.support.v4.app.Fragment;
 
 /**
- * @author hm
+ * @author liushengfan
  *         <p>
  *         2014-5-5
  *         <p>

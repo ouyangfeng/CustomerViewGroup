@@ -3,15 +3,12 @@ package com.liushengfan.test.customerviewgroup;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.view.ViewPager;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import com.liushengfan.test.customerviewgroup.view.ViewGroupScrollView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,14 +16,15 @@ import java.util.List;
 /**
  * Created by liushengfan on 15/11/18.
  */
-public class ItemFragment extends BaseUserHomeFragment{
+public class ItemFragment extends Fragment {
     List<String> datas;
+    ListView listView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = LayoutInflater.from(getActivity()).inflate(R.layout.fragment_list, null);
-        listview = (ListView) root;
+        listView = (ListView) root;
         return root;
     }
 
@@ -39,6 +37,6 @@ public class ItemFragment extends BaseUserHomeFragment{
             datas.add("test" + i);
         }
         ArrayAdapter mAdapter = new ArrayAdapter<String>(getActivity(), R.layout.fragment_list_item, datas);
-        listview.setAdapter(mAdapter);
+        listView.setAdapter(mAdapter);
     }
 }

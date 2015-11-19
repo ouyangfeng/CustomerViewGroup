@@ -1,11 +1,11 @@
-package com.liushengfan.test.customerviewgroup;
+package com.liushengfan.test.customerviewgroup.cinterface;
 
 import android.text.SpannableString;
 
 
 /**
  * 个人主页.导航适配接口
- * @author lsf
+ * @author liushengfan
  *
  */
 public interface  IuserHomeNav  {

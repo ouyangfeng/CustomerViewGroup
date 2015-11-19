@@ -20,6 +20,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * @author liushengfan
+ * @see android.support.v4.view.ViewPager
+ *         <p/>
+ *         垂直方向 ViewPager
+ */
 public class ViewGroupScrollView extends ViewGroup implements ViewPager.OnPageChangeListener {
 
     private Context mContext;

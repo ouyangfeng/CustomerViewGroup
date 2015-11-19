@@ -1,13 +1,15 @@
-package com.liushengfan.test.customerviewgroup;
+package com.liushengfan.test.customerviewgroup.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.liushengfan.test.customerviewgroup.cinterface.FragmentAdapterProvider;
+
 
 /**
- * @author hm
+ * @author liushengfan
  *         <p>
  *         2014-5-5
  *         <p>

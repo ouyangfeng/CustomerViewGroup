@@ -45,13 +45,13 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.liushengfan.test.customerviewgroup.DensityUtil;
-import com.liushengfan.test.customerviewgroup.IuserHomeNav;
+import com.liushengfan.test.customerviewgroup.utils.DensityUtil;
+import com.liushengfan.test.customerviewgroup.cinterface.IuserHomeNav;
 import com.liushengfan.test.customerviewgroup.R;
 
 
 /**
- * @author hm
+ * @author liushengfan
  *         <p/>
  *         2014-5-5
  *         <p/>
